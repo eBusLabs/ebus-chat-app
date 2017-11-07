@@ -1,5 +1,5 @@
 {
-  "name": "friendlychat-codelab",
+  "name": "ebuschat-codelab",
   "description": "Firebase SDK for Cloud Functions codelab",
   "dependencies": {
     "@google-cloud/storage": "^0.6.1",

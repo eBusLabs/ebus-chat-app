@@ -34,7 +34,7 @@ exports.addWelcomeMessages = functions.auth.user().onCreate(event => {
   const fullName = user.displayName || 'Anonymous';
 
   // Saves the new welcome message into the database
-  // which then displays it in the FriendlyChat clients.
+  // which then displays it in the eBusChat clients.
   return admin.database().ref('messages').push({
     name: 'Firebase Bot',
     photoUrl: '/images/firebase-logo.png', // Firebase logo
